@@ -7,6 +7,6 @@ int run() {
 }
 
 int main(void) {
-    char    *buf;
-    gets(&buf);
+    char    buf[76];
+    gets(buf);
 }
